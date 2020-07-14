@@ -1,0 +1,206 @@
+@font-face {
+    font-family: "AvenirRegular";
+    src: url("../../fonts/Avenir Next Regular.otf");
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../../fonts/AVENIR-LT.OTF");
+}
+@font-face {
+  font-family: "MSPMincho";
+  src: url("../../fonts/Times Now ExtraLight.otf");
+}
+.white_logo {
+  display: none;
+}
+.black_logo {
+  display: block;
+}
+.head {
+    font-family: 'MSPMincho';
+    font-size: 2rem;
+}
+.para {
+    font-family: 'Avenir';
+    font-size: 1rem;
+   
+}
+.archive-exhibition {
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+  width: 100%;
+}
+
+
+.page-label-vertical {
+    margin-bottom: 2rem;
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: .1666666667em;
+    line-height: .75rem;
+}
+
+
+
+/* center content */
+.post-content {
+  font-size: .875rem;
+  line-height: 2rem;
+}
+
+.table-list {
+    /*width:115%;*/
+  padding-left: 0;
+  list-style: none;
+  line-height: 1.5;
+}
+.table-list .tr {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+.table-list .td {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  width: 100%;
+  padding: 1.5rem 16px;
+}
+.table-list-item {
+  border-bottom: 1px solid #ebebeb;
+}
+.item-title{
+  padding-left: 15px;
+  font-size: .875rem;
+  
+
+}
+.list{
+  margin-top: 5.5rem;
+}
+
+/* sidebar */
+ .page-background {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.archive-exhibition .page-sidebar-media {
+   
+    transition: .3s ease;
+}
+.page-sidebar-media {
+   background: cornflowerblue;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer {
+    z-index: 1000;
+   
+    position: absolute;
+}
+.exhibition{
+    display:block;
+}
+
+
+/* all media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ .page-background {
+   height:30vh;
+}
+.head {
+    
+    font-size: 1.3rem;
+}
+.para {
+    font-family: 'Avenir';
+    font-size: 0.9rem;
+   
+}
+.exhibition{
+    display:none;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.d-inline-block{
+    display:none;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.exhibition{
+    display:none;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ .archive-exhibition {
+  padding-top: 12.5rem;
+  padding-bottom: 12.5rem;
+
+}
+.page-sidebar {
+    height:100vh;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    overflow: hidden;
+    margin-left: 282.666666667px;
+    pointer-events: none;
+}
+.page-label-vertical {
+    position: fixed;
+    top: 50%;
+    z-index: 1;
+    left: 64px;
+}
+.page-label-vertical>span {
+  padding: 0 1px;
+  -webkit-transform: rotate(-90deg) translateX(-50%);
+  transform: rotate(-90deg) translateX(-50%);
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+}
+.exhibition{
+    display:block;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+.page-sidebar {
+    margin-left: 350.666666667px;
+}
+.page-label-vertical {
+    left: 110px;
+}
+}
+@media screen and (min-width: 1600px)  {
+
+.page-sidebar {
+    margin-left: 460px;
+}
+
+}

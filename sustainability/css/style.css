@@ -1,0 +1,693 @@
+@font-face {
+    font-family: "AvenirRegular";
+    src: url("../../fonts/Avenir Next Regular.otf");
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../../fonts/AVENIR-LT.OTF");
+}
+@font-face {
+  font-family: "MSPMincho";
+  src: url("../../fonts/Times Now ExtraLight.otf");
+}
+.service-padding {
+    height: 70vh;
+    width: 100%;
+    background-image: url('../img/Header Image.jpg');
+    padding-top: 70px;
+}
+
+.service-top {
+    /*padding: 200px 0px 140px 250px;*/
+    padding-top: 100px;
+    text-align: left;
+}
+
+.inner1 {
+    color: white;
+    width: 100%;
+    /*padding: 0px 0px 100px 500px;*/
+}
+
+.inner1 h1 {
+    font-size: 3.5rem;
+    font-family: 'MSPMincho';
+    
+}
+
+.inner1 p {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-family: 'Avenir';
+}
+
+.container_1228 {
+    max-width: 1228px;
+    min-width: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1.heading,
+h2.sheading {
+    font-family: 'MSPMincho';
+    font-size: 3.5rem;
+    /* line-height: 85px; */
+    background: linear-gradient(to right, #5d7b31 -5%, #185b30 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* intro */
+
+.intro {
+    background: url('../img/Sustainabe.png') center no-repeat;
+    padding: 113px 0;
+    text-align: center;
+}
+
+.intro .para {
+    width: 100%;
+    background-image: url('../img/introL.png'), url('../img/introR.png');
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat;
+    padding: 30px 70px;
+}
+
+.intro .para p {
+    font-size: 1.2rem;
+    font-family: 'Avenir';
+}
+
+.leaf {
+    position: absolute;
+    bottom: 27px;
+    right: 162px;
+}
+
+
+/* 2nd div */
+
+section {
+    padding-top: 60px;
+}
+
+.col_390 {
+    max-width: 390px;
+    min-width: auto;
+    /*float: left;*/
+}
+
+.col_448 {
+    max-width: 448px;
+    min-width: auto;
+    float: left;
+}
+
+.why_livaeco ul {
+    list-style: none;
+    font-size: 0;
+}
+
+.why_livaeco ul li {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.why_livaeco ul li .wle_box {
+    height: 293px;
+    background-color: #44660e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.why_livaeco ul li .wle_box h5 {
+    font-family: 'GothamBook';
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 31px;
+}
+
+.wle_boxsL .wle_box {
+    margin-right: 8px;
+}
+
+.wle_boxsL li:first-child .wle_box {
+    margin-top: 50px;
+}
+
+.wle_boxsL li:last-child .wle_box {
+    margin-top: 166px;
+}
+
+.wle_boxsR {
+    margin-left: -40px;
+}
+
+.wle_boxsR .wle_box {
+    margin-left: 8px;
+}
+
+.wle_boxsR ul li:first-child .wle_box:last-child {
+    margin-top: 8px;
+}
+
+.wle_boxsR li:first-child .wle_box:first-child {
+    margin-top: 50px;
+}
+
+.wle_boxsR li:last-child .wle_box {
+    margin-top: 162px;
+}
+
+img {
+    max-width: 100%;
+    width: auto \9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+.wle_boxc {
+    background: #e3eae5 url('../img/wle_bg.png') right top no-repeat;
+    text-align: center;
+    padding: 130px 54px 90px 54px;
+}
+
+.wle_info h6 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "MSPMincho";
+    font-weight: 800;
+}
+
+.wle_info ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.wle_info ul li {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    font-family: "Avenir";
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+
+h2.sheading {
+    font-size: 42px;
+    line-height: 46px;
+}
+
+
+/* process */
+
+.leaf3 {
+    position: absolute;
+    top: -48px;
+    right: 0px;
+}
+
+
+/* slider */
+
+.stories_video {
+    padding-top: 95px;
+    margin-top: 15px;
+}
+
+.liveeco_video {
+    max-width: 1288px;
+    min-width: auto;
+    margin: 0 auto;
+}
+
+.stories_video h1 {
+    /*margin: 0 0 70px 0;*/
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: 'MSPMincho';
+}
+
+.stories_video .text-center {
+    text-align: center;
+}
+
+.stories_video p {
+    font-size: 1.3rem;
+    font-family: 'Avenir';
+    line-height: 26px;
+}
+
+.videolist {
+    margin: 50px 0 0 0;
+    padding: 0 0 30px 0;
+    position: relative;
+}
+
+
+/*-=-=-=-=-=-=-=-=-=-*/
+
+
+/* GENERAL STYLES */
+
+
+/*-=-=-=-=-=-=-=-=-= */
+
+
+/*-=-=-=-=-=-=-=-=-=-*/
+
+
+/* Wow Image */
+
+
+/*-=-=-=-=-=-=-=-=-= */
+
+.service-section {
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.wow_imgage {
+    position: relative;
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wow_imgage img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border: 4px solid #e4e4e1;
+}
+
+.end {
+    margin-right: 0 !important;
+}
+
+.infographic {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    padding: 10px;
+}
+
+.content h6 {
+    font-family: "MSPMincho";
+}
+
+.content p {
+    font-family: "Avenir";
+}
+
+.jeans {
+    height: 96%;
+    width: 86%;
+    margin-top: 10%;
+    margin: 0 auto;
+}
+
+.washitem {
+    margin-top: 8%;
+}
+
+.washheading {
+    text-align: center;
+}
+
+.washheading p span {
+    font-size: 2.4rem;
+    font-family: 'MSPMincho';
+}
+
+.jeans img {
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+/* wash item 1 */
+
+.washItems {
+    padding-top: 20px;
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.washItems ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.washItems ul li {
+    font-family: "Avenir";
+    color: black;
+    float: left;
+}
+
+.washItems .right {
+    right: 15px;
+    position: absolute;
+    height: 65px;
+}
+
+.washItems .right img {
+    height: 85%;
+    width: 95%;
+    object-fit: fill;
+}
+
+
+/* wash item 2 */
+
+.washItems2 {
+    padding-top: 20px;
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.washItems2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.washItems2 ul li {
+    text-align: right;
+    font-family: "Avenir";
+    color: black;
+    float: right;
+}
+
+.washItems2 .left {
+    /* right: 15px; */
+    position: absolute;
+    height: 65px;
+}
+
+.washItems2 .left img {
+    /*height: 85%;*/
+    /*width: 95%;*/
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+/* operations start */
+
+.operations_video {
+    padding-top: 7%;
+}
+
+.operations {
+    max-width: 1288px;
+    min-width: auto;
+    margin: 0 auto;
+}
+
+.operations_video h1 {
+    text-transform: uppercase;
+    margin: 0 0 50px 0;
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: "MSPMincho";
+}
+
+.operations_video h6 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Avenir";
+}
+
+.operations_video .text-center {
+    text-align: center;
+}
+
+.operations_video p {
+    font-size: 1.2rem;
+    font-family: "Avenir";
+    line-height: 26px;
+}
+
+
+/* table */
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+    width: 60%;
+    table-layout: fixed;
+}
+
+table tr {
+    padding: 0.35em;
+}
+
+table td {
+    font-family: "Avenir";
+    font-size: 1rem;
+    padding: 0em;
+    text-align: center;
+}
+
+.cus_logos {
+    padding-top: 3%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* collaborations */
+
+.cwashtext {
+    text-align: right;
+    font-family: 'MSPMincho';
+    font-size: 2.4rem;
+}
+
+.cwashimg {
+    text-align: center;
+}
+
+.cwashcloth {
+    text-align: left;
+    font-family: 'MSPMincho';
+    font-size: 2.4rem;
+}
+/* operations start */
+
+.collaboration_video {
+    padding-top: 6%;
+        padding-bottom: 6%;
+}
+
+.collaboration {
+    max-width: 1288px;
+    min-width: auto;
+    margin: 0 auto;
+}
+
+.collaboration_video h1 {
+    color: #185b30;
+    text-transform: uppercase;
+    margin: 0 0 0px 0;
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: "MSPMincho";
+}
+
+.col_img {
+    height: 100px;
+}
+
+.sus {
+    top: 40px;
+    position: absolute;
+}
+
+.col_para p {
+    line-height:26px;
+    font-size: 1.3rem;
+    font-family: "Avenir";
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+        border: 0;
+    }
+    table tr {
+        display: block;
+        margin-bottom: 0.625em;
+    }
+    table td {
+        display: block;
+        font-size: 0.8em;
+        /* text-align: right; */
+    }
+    table td::before {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    table td:last-child {
+        border-bottom: 0;
+    }
+}
+
+
+/* media queries */
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .service-top {
+        text-align:center;
+        padding: 100px 0 140px;
+    }
+    .inner1 {
+        padding: 0;
+    }
+    .inner1 h1 {
+        font-size: 2rem;
+    }
+    .inner1 p {
+        font-size: 1rem;
+    }
+    h1.heading,
+    h2.sheading {
+        font-size: 2rem;
+    }
+    .intro .para {
+        padding: 0;
+        background: none;
+    }
+    .intro .para p {
+        font-size: 1rem;
+    }
+    .leaf3 {
+        position: absolute;
+        top: -55px;
+        right: 0;
+    }
+    .sus {
+        top: 0;
+        position: relative;
+    }
+    .operations_video {
+        padding-top: 15%
+    }
+    .col_img {
+        text-align: center;
+    }
+    .col_para p {
+        text-align: center;
+    }
+    .collaboration_video h1 {
+        font-size: 1.3rem;
+    }
+    .cwashtext{
+     text-align:center;   
+    }
+    .cwashcloth{
+        text-align:center;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .service-top {
+        text-align:center;
+        
+    }
+     .cwashtext{
+     text-align:center;   
+    }
+    .cwashcloth{
+        text-align:center;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .cwashtext {
+    text-align: right;
+   
+}
+
+
+
+.cwashcloth {
+    text-align: left;
+   
+}
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+        .cwashtext {
+    text-align: right;
+   
+}
+
+
+
+.cwashcloth {
+    text-align: left;
+   
+}
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+        .cwashtext {
+    text-align: right;
+   
+}
+
+
+
+.cwashcloth {
+    text-align: left;
+   
+}
+}

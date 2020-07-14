@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("../../fonts/AVENIR-LT.OTF");
+}
+
+@font-face {
+    font-family: "MSPMincho";
+    src: url("../../fonts/Times Now ExtraLight.otf");
+}
+
+.white_logo {
+    display: none;
+}
+
+.black_logo {
+    display: block;
+}
+
+h2 {
+   text-transform: uppercase;
+    font-family: 'MSPMincho';
+}
+
+.building {
+    text-align: left;
+}
+
+.building img {
+    height: 90vh;
+}
+
+.main_heading {
+    width: 80%;
+    padding-left: 115px;
+    padding-top: 35%;
+    font-size: 2.4rem;
+    font-family: 'MSPMincho';
+}
+
+.main_head {
+    width: 80%;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 8%;
+    font-size: 1.3rem;
+    font-family: 'Avenir';
+}
+
+.para {
+    margin-top: 5vh;
+    font-size: 1.3rem;
+    font-family: 'Avenir';
+}
+
+.para1 {
+    
+    margin-top: 8%;
+    width: 50%;
+    font-size: 1.3rem;
+    font-family: 'Avenir';
+}
+
+.cutting {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cutting img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.cutting_para {
+    font-size: 1.3rem;
+    font-family: 'Avenir';
+    width: 75%;
+    text-align: left;
+    padding-top: 10%;
+}
+.cutting_div{
+    width:100%;
+}
+.cutting_img {
+    text-align: right;
+    margin-top: 15vh;
+    height: 45vh;
+}
+
+.cutting_img img {
+    height: 100%;
+    width: 70%;
+    object-fit: fill;
+}
+
+.cutting_para1 {
+   float: right;
+    font-size: 1.3rem;
+    font-family: 'Avenir';
+    margin-top: 5vh;
+    width: 70%;
+    text-align: left;
+     margin-bottom: 5%;
+}
+.cutting_para1 p{
+     margin-top: 5vh;
+}
+.laundary_para {
+    font-size: 1.3rem;
+    font-family: 'Avenir';
+    margin-top: 5vh;
+    width: 70%;
+    text-align: left;
+    margin-bottom: 10%;
+}
+.laundary_para p{
+     margin-top: 5vh;
+}
+.cutting_para p{
+     margin-top: 5vh;
+}
+.laundary_img {
+    text-align: right;
+    margin-top: 30px;
+    height: 70vh;
+}
+
+.laundary_img img {
+    height: 100%;
+    width: 90%;
+    object-fit: fill;
+}
+
+
+/* animations for img */
+
+.inline-photo {
+    border-radius: 0.25em;
+    opacity: 0;
+    transform: translateX(2em) rotateZ(0deg);
+    transition: transform 4s 0.15s cubic-bezier(0, 1, 0.3, 1), opacity 0.3s 0.25s ease-out;
+    will-change: transform, opacity;
+}
+
+.inline-photo.is-visible {
+    opacity: 1;
+    transform: rotateZ(0deg);
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main_heading{
+        padding-left:0;
+        width:100%;
+    }
+    .main_head{
+        margin-left: 0;
+        text-align:left;
+    }
+    .para1{
+        
+        width:100%;
+    }
+    .cutting_para{
+        width:100%;
+    }
+    .cutting_img img{
+        width:100%;
+    }
+    .cutting_para1{
+        width:100%;
+    }
+    .laundary_img{
+        height:50vh;
+        margin-top:0;
+    }
+    .laundary_img img{
+        height: 80%;
+        width:100%;
+    }
+    .laundary_para{
+        width:100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main_head{
+        margin-left: 0;
+        text-align:left;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main_head {
+    width: 80%;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 8%;
+    font-size: 1.3rem;
+    font-family: 'Avenir';
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main_head {
+    width: 80%;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 8%;
+    font-size: 1.3rem;
+    font-family: 'Avenir';
+}
+}

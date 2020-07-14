@@ -1,0 +1,231 @@
+@font-face {
+    font-family: "AvenirRegular";
+    src: url("../../fonts/Avenir Next Regular.otf");
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../../fonts/AVENIR-LT.OTF");
+}
+@font-face {
+  font-family: "MSPMincho";
+  src: url("../../fonts/Times Now ExtraLight.otf");
+}
+.white_logo{
+    display: none;
+}
+.black_logo{
+    display: block
+}
+.para {
+    font-family: 'Avenir';
+    font-size: 1.2rem;
+    padding-bottom: 2%;
+}
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.file-upload input[type='file'] {
+  display: none;
+}
+/*.file-upload{*/
+/*    width:15%;*/
+/*}*/
+
+.rounded-lg {
+  border-radius: 1rem;
+}
+
+.custom-file-label.rounded-pill {
+  border-radius: 50rem;
+}
+
+.custom-file-label.rounded-pill::after {
+  border-radius: 0 50rem 50rem 0;
+}
+
+
+.head {
+    font-family: 'MSPMincho';
+    font-size: 2.4rem;
+}
+.con_head{
+    font-family: 'MSPMincho';
+    font-size: 1.5rem;
+}
+.parallax_section_form {
+    margin-top: 1vh;
+    width: 100%;
+}
+
+.parallax-section {
+    margin-top: 1vh;
+    width: 100%;
+}
+
+.parallax_section_map {
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+}
+
+.contact-info .fa {
+    padding-right: 5px;
+}
+
+#contact .form-control {
+    border: none;
+    border-bottom: 2px solid #f0f0f0;
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+#contact .form-control:focus {
+    border-bottom-color: #999999;
+}
+
+#contact input {
+    height: 55px;
+}
+
+#contact button#submit {
+    font-family: 'Avenir';
+    background: black;
+    border: none;
+    width: auto;
+    color: #ffffff;
+    height: 50px;
+    margin-top: 24px;
+}
+
+#contact button#submit:hover {
+    background: gray;
+    color: white;
+}
+
+
+/* map  */
+#map{
+    width: 100%;
+    height: 619px;
+}
+
+
+
+/*modal popup*/
+#basicModal .form-control {
+    border: none;
+    border-bottom: 2px solid #f0f0f0;
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+#basicModal .form-control:focus {
+    border-bottom-color: #999999;
+}
+
+#basicModal input {
+    height: 55px;
+}
+
+
+
+
+/* icons */
+
+#contact .card:hover i,
+#contact .card:hover h4 {
+    color: #87d37c;
+}
+input[type="text"] {
+  font-family: 'Avenir';
+    font-size: 1.3rem;
+}
+input[type="email"] {
+  font-family: 'Avenir';
+    font-size: 1.3rem;
+}
+textarea{
+    
+  font-family: 'Avenir';
+    font-size: 1.3rem;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        margin-top: 15vh;
+    }
+    .head {
+ 
+    font-size: 1.3rem;
+    }
+    .para{
+        font-size:0.8rem;
+    }
+    /*.file-upload{*/
+    /*    width:50%;*/
+    /*}*/
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .heading {
+        margin-top: 10vh;
+    }
+    /* .file-upload{*/
+    /*    width:20%;*/
+    /*}*/
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .heading {
+        margin-top: 15vh;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .heading {
+        margin-top: 15vh;
+    }
+    /*.file-upload{*/
+    /*    width:15%;*/
+    /*}*/
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .heading {
+        margin-top: 20vh;
+    }
+    /*.file-upload{*/
+    /*    width:15%;*/
+    /*}*/
+}

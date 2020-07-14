@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "AvenirRegular";
+    src: url("../../fonts/Avenir Next Regular.otf");
+}
+
+@font-face {
+  font-family: "MSPMincho";
+  src: url("../../fonts/Times Now ExtraLight.otf");
+}
+
+@font-face {
+  font-family: "MSPMincho";
+  src: url("../../fonts/MSPMincho.ttf");
+}
+.white_logo {
+  display: none;
+}
+.black_logo {
+  display: block;
+}
+.bgImg {
+  background-image: url("./img/Certifications.jpg");
+  width: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+#pageintro {
+  color: black;
+}
+
+#pageintro {
+  padding: 275px 0 270px;
+}
+
+.hoc {
+  display: block;
+  margin: 0 auto;
+}
+
+.clear,
+.group {
+  display: block;
+}
+
+#pageintro article {
+  display: block;
+  max-width: 75%;
+  margin-left: 12%;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.division_desc {
+  width: 35%;
+  text-align: left;
+ 
+  font-family: "Avenir";
+  font-size: 1.2rem;
+}
+
+.heading {
+  font-size: 40px;
+  font-family: "MSPMincho";
+}
+
+#division_links {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.link_heading {
+  font-size: 30px;
+  font-family: "MSPMincho";
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.content {
+  float: left;
+  width: 100%;
+  padding: 20px 10px 20px 10px;
+  position: relative;
+  border-bottom: 1px solid gray;
+}
+.border_bottom{
+    cursor:pointer;
+    
+}
+.certificateLogo {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+}
+
+.certificateLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.certificateLogo1 {
+  display: inline-block;
+  width: 130px;
+  height: 70px;
+}
+
+.certificateLogo1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+aside {
+  display: inline-block;
+  color: black;
+  margin-top: 20px;
+}
+
+aside p {
+  text-align: left;
+  font-family: "Avenir";
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  line-height: 160%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #pageintro {
+    padding: 200px 0 270px;
+}
+  #pageintro article {
+    width: 100%;
+  }
+  .division_desc {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .content {
+    text-align: center;
+  }
+  aside p {
+    text-align: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .division_desc {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .content {
+    text-align: center;
+  }
+  aside p {
+    text-align: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #pageintro article {
+    width: 100%;
+  }
+  .division_desc {
+    width: 100%;
+  }
+
+  aside {
+    display: inline-block;
+    width: 80%;
+  }
+  aside p {
+    text-align: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .division_desc {
+    font-size: 1.2rem;
+  }
+  aside {
+    display: inline-block;
+    width: 100%;
+  }
+  aside p {
+    text-align: left;
+  }
+  .hoc {
+    max-width: 90%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
